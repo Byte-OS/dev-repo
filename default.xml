@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <!-- Remote List -->
+    <remote name="Byte-OS" alias="origin" fetch="."/>
+
+    <!-- Default Settings For Repos -->
+    <default remote="Byte-OS" revision="main" upstream="main" dest-branch="main"/>
+
+    <!-- Base Repository -->
+    <project name="ByteOS.git" path="kernel" />
+
+</manifest>
+
